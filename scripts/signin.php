@@ -8,6 +8,7 @@
    include "../../frictlist_private/account.php";
    
    $table="user";
+   
    $email=$_POST["email"];
    $password=$_POST["password"];
    

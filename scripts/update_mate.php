@@ -8,15 +8,15 @@
    include "../../frictlist_private/account.php";
 
    $table_user="user";
-   $table_hu="hookup"; //todo change to mate
+   $table_mate="mate";
    
    $uid=$_POST["uid"];
-   $mid=$_POST["mid"]; //mate id
+   $mate_id=$_POST["mate_id"];
    $firstname=$_POST["firstname"];
    $lastname=$_POST["lastname"];
    $gender=$_POST["gender"];
   
-   echo update_mate($uid, $mid, $firstname, $lastname, $gender, $db, $table_user, $table_hu);
+   echo update_mate($uid, $mate_id, $firstname, $lastname, $gender, $db, $table_user, $table_mate);
 
    $db->close();
 ?>

@@ -6,7 +6,7 @@
  */
    include "../../frictlist_private/credentials.php";
    include "../../frictlist_private/account.php";
-
+   //TODO
    $table_user="user";
    $table_frict="frict";
    
