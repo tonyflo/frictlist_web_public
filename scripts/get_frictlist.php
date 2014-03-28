@@ -9,7 +9,7 @@
    
    $uid=$_POST["uid"];
    
-   echo get_frictlist($uid, $db);
+   get_frictlist($uid, $db);
 
    $db->close();
 ?>
