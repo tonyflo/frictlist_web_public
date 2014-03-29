@@ -9,10 +9,10 @@
    
    $table="user";
    
-   $email=$_POST["email"];
+   $username=$_POST["username"];
    $password=$_POST["password"];
    
-   echo sign_in($email, $password, $db, $table);
+   echo sign_in($username, $password, $db, $table);
 
    $db->close();
 ?>

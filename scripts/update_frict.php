@@ -14,10 +14,10 @@
    $frict_id=$_POST["frict_id"];
    $base=$_POST["base"];
    $from=$_POST["from"];
-   $to=$_POST["to"];
+   $rating=$_POST["rating"];
    $notes=$_POST["notes"];
    
-   echo update_frict($frict_id, $mate_id, $base, $from, $to, $notes, $db, $table_mate, $table_frict);
+   echo update_frict($frict_id, $mate_id, $base, $from, $rating, $notes, $db, $table_mate, $table_frict);
 
    $db->close();
 ?>

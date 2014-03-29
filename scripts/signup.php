@@ -10,12 +10,13 @@
    $table="user";
    $firstname=$_POST["firstname"];
    $lastname=$_POST["lastname"];
+   $username=$_POST["username"];
    $email=$_POST["email"];
    $password=$_POST["password"];
    $gender=$_POST["gender"];
    $birthdate=$_POST["birthdate"];
   
-   echo sign_up($firstname, $lastname, $email, $password, $gender, $birthdate, $db, $table);
+   echo sign_up($firstname, $lastname, $username, $email, $password, $gender, $birthdate, $db, $table);
 
    $db->close();
 ?>
