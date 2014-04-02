@@ -1,5 +1,5 @@
 <?php
-/* @file add_mate.php
+/* @file send_mate_request.php
  * @date 2014-03-29
  * @author Tony Florida
  * @brief Send a request to a mate to make a connection
