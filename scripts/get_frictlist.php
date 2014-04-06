@@ -4,10 +4,12 @@
  * @author Tony Florida
  * @brief Allows a user to update a Frict from their list
  */
+ 
    include "../../frictlist_private/credentials.php";
    include "../../frictlist_private/account.php";
-   
+
    $uid=$_POST["uid"];
+   
    
    get_frictlist($uid, $db);
 

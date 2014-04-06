@@ -10,8 +10,9 @@
    $table_frict="frict";
    
    $frict_id=$_POST["frict_id"];
+   $creator=$_POST["creator"];
    
-   echo remove_frict($frict_id, $db, $table_frict);
+   echo remove_frict($frict_id, $creator, $db, $table_frict);
 
    $db->close();
 ?>
