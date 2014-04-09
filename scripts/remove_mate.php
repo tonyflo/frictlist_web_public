@@ -11,8 +11,9 @@
    $table_frict="frict";
    
    $mate_id=$_POST["mate_id"];
+   $creator=$_POST["creator"];
    
-   echo remove_mate($mate_id, $db, $table_mate, $table_frict);
+   echo remove_mate($mate_id, $creator, $db, $table_mate, $table_frict);
 
    $db->close();
 ?>
