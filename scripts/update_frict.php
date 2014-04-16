@@ -17,8 +17,10 @@
    $rating=$_POST["rating"];
    $notes=$_POST["notes"];
    $creator=$_POST["creator"];
+   $lat=$_POST["lat"];
+   $lon=$_POST["lon"];
    
-   echo update_frict($frict_id, $mate_id, $base, $from, $rating, $notes, $creator, $db, $table_mate, $table_frict);
+   echo update_frict($frict_id, $mate_id, $base, $from, $rating, $notes, $creator, $lat, $lon, $db, $table_mate, $table_frict);
 
    $db->close();
 ?>
