@@ -1,0 +1,46 @@
+/* CSS for SwampViewStudios.com 	*/
+/* Author: Tony Florida 		*/
+/* Date: 7/13/12 			*/
+/* File: style.css 		*/
+
+body {
+	background-image: url("resources/images/bg.gif");
+}
+
+@font-face {
+	font-family: pointfree;
+	src: url("resources/fonts/pointfree.ttf");
+}
+
+/* Classes */
+#masthead{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	//background-color:silver;
+	padding-top: 20px;
+}
+
+#mastheadlinks{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text{
+	color: white;
+	font-family: pointfree;
+}
+
+
+a:link {color:#FFFFFF;}    /* unvisited link */
+a:visited {color:#FFFFFF;} /* visited link */
+a:hover {color:#999933;}   /* mouse over link */
+a:active {color:#663300;}  /* selected link */
