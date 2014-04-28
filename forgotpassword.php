@@ -37,10 +37,15 @@ function mailresetlink($to,$token)
 <html>
 <head>
 <title>Forgot Frictlist Password</title>
+<link rel="stylesheet" type="text/css" href="http://frictlist.flooreeda.com/style.css" />
 </head>
 <body>
-<p>Click on the link to reset your password <a href="'.$uri.'/reset.php?token='.$token.'">Reset Password</a></p>
-
+<div id="masthead">
+	<a href="http://frictlist.flooreeda.com"><img src="http://frictlist.flooreeda.com/resources/images/title.png" alt="Frictlist" style="max-width:100%;height:auto;"/></a>
+</div>
+<p>Click on the link to reset your password.</p>
+<a href="'.$uri.'/reset.php?token='.$token.'">Reset Password</a>
+<br>
 </body>
 </html>
    ';

@@ -90,7 +90,7 @@ else
    }
    
    echo '<form method="post" class="text center">
-   Enter your new password:<input pattern=".{6,}" required type="password" name="password" /><br>
+   Enter your new password:<input required type="password" name="password" /><br>
    <input type="submit" value="Change Password">
    </form>';
 }
