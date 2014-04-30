@@ -16,8 +16,9 @@
    $gender=$_POST["gender"];
    $birthdate=$_POST["birthdate"];
    $platform=$_POST["platform"];
+   $token=$_POST["token"];
   
-   echo sign_up($firstname, $lastname, $username, $email, $password, $gender, $birthdate, $platform, $db, $table);
+   echo sign_up($firstname, $lastname, $username, $email, $password, $gender, $birthdate, $platform, $token, $db, $table);
 
    $db->close();
 ?>

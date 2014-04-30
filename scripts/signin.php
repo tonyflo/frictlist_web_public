@@ -11,8 +11,9 @@
    
    $username=$_POST["username"];
    $password=$_POST["password"];
+   $token=$_POST["token"];
    
-   echo sign_in($username, $password, $db, $table);
+   echo sign_in($username, $password, $token, $db, $table);
 
    $db->close();
 ?>
