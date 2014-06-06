@@ -32,7 +32,7 @@
 					if($result == 0)
 					{
 						//success
-						echo "<h4>You have successfully registered ".$_POST['email']." and will be contacted with Frictlist is available for Android.</h4>";
+						echo "<h4>You have successfully registered ".$_POST['email']." and will be contacted when Frictlist is available for Android.</h4>";
 						return;
 					}
 					else if($result == -1)
