@@ -11,6 +11,7 @@
 	<meta name="description" content="In the game of life, you may strikeout just as many times as you hit a home run. But who's keeping score? Well, now you are!"/>
 	<meta name="keywords" content="baseball, sex, hookup, hook, date, dating, tinder, statistics, tracker" />
 	<meta name="author" content="Tony Florida" />
+	<link href="frictlist.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 	<?php include "header.php"; ?>

@@ -8,6 +8,7 @@
 	<title>Frictlist for Android</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
    <meta name="viewport" content="width=device-width, user-scalable=no">
+   <link href="frictlist.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 	<?php include "header.php"; ?>

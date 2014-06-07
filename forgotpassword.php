@@ -12,6 +12,7 @@ echo
    <title>Forgot Frictlist Password</title>
    <meta name="viewport" content="width=device-width, user-scalable=no">
    <link rel="stylesheet" type="text/css" href="style.css" />
+   <link href="frictlist.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>';
 include "header.php";
